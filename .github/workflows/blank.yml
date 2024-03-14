@@ -32,6 +32,8 @@ jobs:
       # list folder file name
       - name: List folder file name
         run: |
+          uname -a
+          pwd
           ls
           echo ${{ github.workspace }}
           echo $GITHUB_WORKSPACE
